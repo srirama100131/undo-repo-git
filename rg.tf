@@ -3,5 +3,9 @@ resource azure_resource_group "rg" {
   location = "eastus"
   tags = {
     environment = "dev"
+      project     = "myproject"
+      owner       = "myname"
+      department    = "mydepartment"
   }
 }
+
